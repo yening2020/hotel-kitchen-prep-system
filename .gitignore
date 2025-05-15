@@ -1,0 +1,63 @@
+# General
+.DS_Store
+Thumbs.db
+*~
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Python tooling
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Static uploads (user-generated content)
+backend/static/uploads/
+
+# Backup directory
+zbak/
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / editor directories
+.vscode/
+.idea/
